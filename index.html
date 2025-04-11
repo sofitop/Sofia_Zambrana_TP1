@@ -13,7 +13,7 @@
 
 <body class="fondo">
     <header>
-        <div id="titulo">
+        <div id="titulo">  <!--> en este caso, el div está de más, las propiedades que estableciste pueden ir en header directamente <-->
             <img src="img/foto_de_perfil.png" alt="Foto de perfil de Sofía Zambrana" width="483" height="620">
             <div>
                 <h1>Sofia ZambrAna</h1>
@@ -29,7 +29,7 @@
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
-    ">
+    "> <!--> este div es innecesario, las propiedades pueden ir directamente en main, además no usamos las propiedades css inline, esto debe ir al archivo css <-->
             <section class="bloque_de_info">
                 <h3>sobre mí</h3>
                 <p> Soy Sofía, pero me llaman<span>Sofito</span>porque vengo en versión comprimida.
@@ -57,7 +57,7 @@
             <section class="bloque_de_info">
                 <h3>idiomas</h3>
                 <ul>
-                    <li>
+                    <li> <!--> en este caso la li está semanticamente mal utilizada, acá deberían haber 3 correspondientes a cada idioma <-->
                         <h4>Español</h4>
                         <p>Nativo</p>
                         <h4>Inglés</h4>
