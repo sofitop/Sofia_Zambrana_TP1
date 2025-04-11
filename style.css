@@ -11,14 +11,17 @@
 * {
     margin: 20px;
     padding: 0px;
-}  /* no repitas selectores, todas las propiedades de un mismo lugar deben estar juntas, por ej el * de arriba y abajo */
-
-* {
     font-family: "dico-mono-slab", mono;
-    font-weight: 400; /* este no hace falta especificarlo */
-    font-style: normal; /* esto no hace falta */
-    font-size: 20px; 
-    color: rgb(0, 0, 34);
+    font-size: 20px;
+    color: lch(1.04% 20.16 291.33);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 ul {
@@ -34,14 +37,11 @@ li {
 
 h1 {
     font-family: 'noculturenosoul', Helvetica, Arial, Sans-Serif;
-    font-style: normal; /* no hace falta */
     font-size: 190px
 }
 
 h2 {
-    font-family: "dico-mono-slab", sans-serif; /* esto ya lo estableciste en el * no lo repitas */
-    font-weight: 700; 
-    font-style: normal; /* no hace falta */
+    font-weight: 700;
     font-size: 50px;
 }
 
@@ -54,10 +54,13 @@ h3 {
 }
 
 h4 {
-    font-family: "dico-mono-slab", sans-serif; /* estás repitiendo mucho esta propiedad en vano porque ya se estableció en el selector universal, no hace falta repetir */
     font-weight: 700;
-    font-style: normal;
     font-size: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    color: rgb(226, 226, 208);
 }
 
 span {
@@ -86,12 +89,10 @@ img {
 
 footer {
     display: flex;
-    flex-direction: row; /*no hace falta*/
-    flex-wrap: nowrap; /*no hace falta*/
     justify-content: space-between;
-    align-content: center; /*no está  ttomando esta propiedad*/
     align-items: center;
-    background-color: rgb(208, 0, 0); /* guarda con el contraste de color que se genera porque está complicando la lectura */
+    background-color: rgb(255, 0, 0);
+    /* guarda con el contraste de color que se genera porque está complicando la lectura */
     margin: 0px;
     padding: 20px 30px 20px 30px;
 }
