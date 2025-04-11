@@ -1,83 +1,97 @@
+@font-face {
+    font-family: 'noculturenosoul';
+    src: url(no-culture-no-soul-demo.ttf);
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+}
+
 * {
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
 }
 
+* {
+    font-family: "dico-mono-slab", mono;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 34);
+}
+
 ul {
-    list-style-type: georgian;
+    list-style-type: none;
 }
 
 li {
-    font-family: "venice-blvd", sans-serif;
+    font-family: "dico-mono-slab", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    font-size: 17px;
 }
 
 h1 {
-    font-family: "venice-blvd", sans-serif;
-    font-weight: 900;
+    font-family: 'noculturenosoul', Helvetica, Arial, Sans-Serif;
     font-style: normal;
-    font-size: 90px;
-    color: rgb(231, 231, 231);
+    font-size: 190px
 }
 
 h2 {
-    font-family: "venice-blvd", sans-serif;
+    font-family: "dico-mono-slab", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
 }
 
 h3 {
     font-family: venice-blvd, sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    padding-top: 40px;
-    padding-left: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(208, 0, 0);
 }
 
 h4 {
-    font-family: "venice-blvd", sans-serif;
-    font-weight: 400;
+    font-family: "dico-mono-slab", sans-serif;
+    font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    color: black;
-    padding-top: 20px;
-    padding-left: 20px;
 }
 
-p {
-    font-family: "venice-blvd", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 20px;
+span {
+    font-weight: 700;
 }
 
-img{
+img {
     padding-left: 20px;
-}
-
-.cajatítulo {
-    background-color: rgb(34, 34, 34);
-    width: 1630px;
-    height: 130px;
-    padding: 50px 20px 30px 30px;
 }
 
 .fondo {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(226, 226, 208);
+    background-image: url('img/vector_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+#bloque_de_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(208, 0, 0);
+    margin: 0px;
+    padding: 20px 30px 20px 30px;
+}
