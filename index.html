@@ -13,128 +13,171 @@
 
 
 <body class="fondo">
-    <header id="titulo">
-        <img src="img/foto_de_perfil.png" alt="Foto de perfil de Sofía Zambrana" width="483" height="620">
-        <div>
-            <h1>Sofia ZambrAna</h1>
-            <h2>i'm a graphic designer!!</h2>
-        </div>
+    <img src="img/decoraciones1.png" class="decoracion decoracion1">
+    <img src="img/decoraciones2.png" class="decoracion decoracion2">
+    <img src="img/craneo.svg" alt="cráneo" class="decoracion decoracion-craneo">
+    <img src="img/flor.svg" alt="flor" class="decoracion decoracion-flor">
+    <img src="img/estrella.svg" alt="estrella" class="decoracion decoracion-estrella">
+    <img src="img/signos-exclamacion.svg" alt="signos de exclamación" class="decoracion decoracion-signos">
+
+    <header>
+        <nav id="barra-de-navegacion">
+            <ul>
+                <li><a href="#sobre-mi">SOBRE MI</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <section class="titulo">
+            <div class="foto-perfil">
+                <img src="img/foto_de_perfil.png" alt="Foto de perfil de Sofía Zambrana" width="483" height="620">
+            </div>
+            <div class="info">
+                <h1>Sofia ZambrAna</h1>
+                <h2>i'm a graphic designer!!</h2>
+            </div>
+        </section>
     </header>
 
-    <main style=>
-        <section class="bloque_de_info">
-            <h3>sobre mí</h3>
-            <p> Soy Sofía, pero me llaman<span>Sofito</span>porque vengo en versión comprimida.
-                Soy una persona inagotable, me encanta hacer de todo: experimentar, probar y volver a intentar.
-                Disfruto especialmente el branding, lo editorial y los afiches, donde puedo mezclar concepto, forma
-                y un poquito de caos creativo.
-                Y aunque suene caótico, tengo una vibra muy relajada. Eso sí, cuando trabajo soy muy enfocada y lo
-                doy todo y un poco más.</p>
-        </section>
-        <section class="bloque_de_info">
-            <h3>estudios</h3>
-            <ul>
-                <li>
-                    <h4>UNIVERSIDAD NACIONAL DE LANÚS</h4>
-                    <p>Licenciatura en Diseño y Comunicación Visual</p>
-                    <p>2021-</p>
-                </li>
-                <li>
-                    <h4>INSTITUTO GRUTA NUESTRA SEÑORA DE LOURDES</h4>
-                    <p>Bachiller en Economía y Administración</p>
-                    <p>2015-2020</p>
-                </li>
-            </ul>
-        </section>
-        <section class="bloque_de_info">
-            <h3>idiomas</h3>
-            <ul>
-                <li>
-                    <h4>Español</h4>
-                    <p>Nativo</p>
-                </li>
-                <li>
-                    <h4>Inglés</h4>
-                    <p>Avanzado</p>
-                </li>
-                <li>
-                    <h4>Holandés</h4>
-                    <p>Principiante</p>
-                </li>
-            </ul>
-        </section>
-        <section class="bloque_de_info">
-            <h3>experiencia</h3>
-            <ul>
-                <li>
-                    <h4>DISEÑADORA FREELANCE</h4>
-                </li>
-                <li>
-                    <p>2022-actualidad</p>
-                </li>
-                <li><p>-diseño y estrategias de branding e identidad visual</p></li>
-                <li><p>-diseño de piezas editoriales</p></li>
-                <li><p>-diseño 3D de piezas personalizadas</p></li>
-                <li><p>-producción fotográfica de productos</p></li>
-                <li><p>-diseño y gestión de redes sociales</p></li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>COMMUNITY MANAGER</h4>
-                </li>
-                <li>
-                    <p>2023-actualidad</p>
-                </li>
-                <li>
-                    <p>-diseño de piezas gráficas para redes sociales</p>
-                </li>
-                <li>
-                    <p>-redacción de textos y copies para publicaciones</p>
-                </li>
-                <li>
-                    <p>-planificación y programación de contenido</p>
-                </li>
-                <li>
-                    <p>-interacción con la comunicad</p>
-                </li>
-            </ul>
-        </section>
-        <section class="bloque_de_info">
-            <h3>habilidades</h3>
-            <ul>
-                <li>Adobe Illustrator</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Indesign</li>
-                <li>Adobe Lightroom</li>
-                <li>Blender</li>
-                <li>Figma</li>
-            </ul>
-        </section>
-        <section class="bloque_de_info">
-            <h3>cualidades</h3>
-            <ul>
-                <li>
-                    <p>★Creativa y curiosa: siempre busco nuevas formas de hacer las cosas</p>
-                </li>
-                <li>
-                    <p>★Perseverante: no paro hasta quedar feliz con lo que hago</p>
-                </li>
-                <li>
-                    <p>★Entusiasta y proactiva: me animo a todo y me encanta estar en movimiento</p>
-                </li>
-                <li>
-                    <p>★Versátil: disfruto tanto del trabajo en equipo como del trabajo individual</p>
-                </li>
-                <li>
-                    <p>★Experimental: me gusta probar, mezclar, equivocarme y volver a intentar</p>
-                </li>
-            </ul>
-        </section>
+    <main class="contenedor">
+        <div class="columnas">
+            <div class="derecha">
+                <section>
+                    <h3>sobre mí</h3>
+                    <p> Soy Sofía, pero me llaman<span> Sofito </span>porque vengo en versión comprimida.
+                        Soy una persona inagotable, me encanta hacer de todo: experimentar, probar y volver a
+                        intentar.
+                        Disfruto especialmente el branding, lo editorial y los afiches, donde puedo mezclar
+                        concepto, forma
+                        y un poquito de caos creativo.
+                        Y aunque suene caótico, tengo una vibra muy relajada. Eso sí, cuando trabajo soy muy
+                        enfocada y lo
+                        doy todo y un poco más.</p>
+                </section>
+                <section>
+                    <h3>cualidades</h3>
+                    <ul>
+                        <li>
+                            <p><span>★Creativa y curiosa:</span> siempre busco nuevas formas de hacer las cosas</p>
+                        </li>
+                        <li>
+                            <p><span>★Perseverante:</span> no paro hasta quedar feliz con lo que hago</p>
+                        </li>
+                        <li>
+                            <p><span>★Entusiasta y proactiva:</span> me animo a todo y me encanta estar en
+                                movimiento</p>
+                        </li>
+                        <li>
+                            <p><span>★Versátil:</span> disfruto tanto del trabajo en equipo como del trabajo
+                                individual</p>
+                        </li>
+                        <li>
+                            <p><span>★Experimental:</span> me gusta probar, mezclar, equivocarme y volver a intentar
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>habilidades</h3>
+                    <ul class="habilidades">
+                        <li><img src="img/iconos/illustrator.svg" alt="illustrator">Illustrator</li>
+                        <li><img src="img/iconos/photoshop.svg">Adobe Photoshop</li>
+                        <li><img src="img/iconos/indesign.svg">Adobe Indesign</li>
+                        <li><img src="img/iconos/lightroom.svg">Adobe Lightroom</li>
+                        <li><img src="img/iconos/blender.svg">Blender</li>
+                        <li><img src="img/iconos/figma.svg">Figma</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="izquierda">
+                <section>
+                    <h3>estudios</h3>
+                    <ul>
+                        <li>
+                            <h4>UNIVERSIDAD NACIONAL DE LANÚS</h4>
+                            <p>Licenciatura en Diseño y Comunicación Visual</p>
+                            <p>2021-</p>
+                        </li>
+                        <li>
+                            <h4>INSTITUTO GRUTA NUESTRA SEÑORA DE LOURDES</h4>
+                            <p>Bachiller en Economía y Administración</p>
+                            <p>2015-2020</p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>experiencia</h3>
+                    <ul>
+                        <li>
+                            <h4>DISEÑADORA FREELANCE</h4>
+                        </li>
+                        <li>
+                            <p>2022-actualidad</p>
+                        </li>
+                        <li>
+                            <p>-diseño y estrategias de branding e identidad visual</p>
+                        </li>
+                        <li>
+                            <p>-diseño de piezas editoriales</p>
+                        </li>
+                        <li>
+                            <p>-diseño 3D de piezas personalizadas</p>
+                        </li>
+                        <li>
+                            <p>-producción fotográfica de productos</p>
+                        </li>
+                        <li>
+                            <p>-diseño y gestión de redes sociales</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h4>COMMUNITY MANAGER</h4>
+                        </li>
+                        <li>
+                            <p>2023-actualidad</p>
+                        </li>
+                        <li>
+                            <p>-diseño de piezas gráficas para redes sociales</p>
+                        </li>
+                        <li>
+                            <p>-redacción de textos y copies para publicaciones</p>
+                        </li>
+                        <li>
+                            <p>-planificación y programación de contenido</p>
+                        </li>
+                        <li>
+                            <p>-interacción con la comunidad</p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>idiomas</h3>
+                    <ul>
+                        <li>
+                            <h4>Español</h4>
+                            <p>Nativo</p>
+                        </li>
+                        <li>
+                            <h4>Inglés</h4>
+                            <p>Avanzado</p>
+                        </li>
+                        <li>
+                            <h4>Holandés</h4>
+                            <p>Principiante</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
-        <h5>behance.net/sofiazambrana</h5>
-        <h5>+32 478 75 11 58</h5>
-        <h5>sofiazambrana1@gmail.com</h5>
+        <h5><a href="https://www.behance.net/sofiazambrana" target="_blank">behance.net/sofiazambrana</a></h5>
+        <h5><a href="tel:+32478751158">+32 478 75 11 58</a></h5>
+        <h5><a href="mailto:sofiazambrana1@gmail.com">sofiazambrana1@gmail.com</a></h5>
     </footer>
 </body>
+
 </html>
